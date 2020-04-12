@@ -1,3 +1,2 @@
-h1 {
-    color: red;
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/fonts/fonts.css);
