@@ -2,8 +2,9 @@
     background-color: #fff;
     
 	width: 100%;
-  	max-width: 1600px;
-    min-width: 320px;
+  	max-width: 1440px;
+	min-width: 320px;
+	height: 100vh;
     
     z-index: 10;
     overflow: hidden;

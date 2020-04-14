@@ -1,0 +1,17 @@
+@import url(./__logo/header__logo.css);
+@import url(./__button/header__button.css);
+
+.header {
+    max-width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 5vw;
+
+    box-sizing: border-box;
+    border-bottom: rgba(120, 120, 120, 0.3) 1px solid;
+}

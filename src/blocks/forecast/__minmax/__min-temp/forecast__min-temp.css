@@ -1,0 +1,7 @@
+.forecast__min-temp {
+    padding-top: 5px;
+
+    border-top: 1px solid #000;
+
+    box-sizing: border-box;
+}
