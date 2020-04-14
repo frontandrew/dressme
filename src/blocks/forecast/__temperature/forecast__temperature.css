@@ -1,0 +1,14 @@
+.forecast__temperature {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    align-self: center;
+    justify-self: right;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 220px;
+
+    z-index: 10;
+}

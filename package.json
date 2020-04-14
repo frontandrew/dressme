@@ -1,7 +1,7 @@
 {
   "name": "dressme",
   "homepage": "https://frontandrew.github.io/dressme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "we know how to dress you",
   "main": "index.js",
   "scripts": {

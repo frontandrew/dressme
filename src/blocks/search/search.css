@@ -1,0 +1,20 @@
+@import url(../search/__form/search__form.css);
+@import url(../search/__input/search__input.css);
+@import url(../search/__button/search__button.css);
+
+.search {
+    display: flex;
+
+    position: absolute;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(27, 27, 27, 0.95);
+
+    z-index: 10;
+}

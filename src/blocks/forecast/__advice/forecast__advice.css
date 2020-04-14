@@ -1,0 +1,14 @@
+@import url(./_text/forecast__advice_text.css);
+
+.forecast__advice {
+    grid-column: 1/4;
+    grid-row: 4/5;
+
+    align-self: center;
+    text-align: center;
+
+    font-size: 30px;
+    color: white;
+
+    z-index: 10;
+}

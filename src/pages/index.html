@@ -2,19 +2,57 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="we know how dress you">
-    <meta name="author" content="Andrew Bubnov">
-    <title>DressMe</title>
-    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.index.css %>">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="we know how dress you">
+  <meta name="author" content="Andrew Bubnov">
+  <title>DressMe</title>
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.index.css %>">
 </head>
 
 <body>
-    
-    <h1>Dressme</h1>
-    <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
+  <div class="page">
+    <header class="header">
+      <h1 class="header__logo logo">dressme</h1>
+      <button class="header__button button">ВЫБРАТЬ ГОРОД</button>
+    </header>
+
+    <main class="content">
+      <section class="forecast">
+        <h2 class="forecast__local">Южно-Сахалинск</h2>
+        <div class="forecast__image">-->место для картинки<--</div>
+        <p class="forecast__temperature">-&nbsp;24&deg;</p>
+        <div class="forecast__minmax">
+          <span class="forecast__max-temp">-&nbsp;9&deg;</span>
+          <span class="forecast__min-temp">-&nbsp;39&deg;</span>
+        </div>
+        <span class="forecast__describe">Облачно, с прояснениями</span>
+        <p class="forecast__advice">Наш&nbsp;совет:&nbsp;
+          <span class="forecast__advice  forecast__advice_text">не забудте головной убор и перчатки</span>
+        </p>
+        <div class="forecast__underlay"></div>
+      </section>
+      <section class="search disabled">
+        <form class="search__form" action="submit">
+          <input type="text" class="search__input" required="yes" minlength="2" placeholder="введите название города">
+          <button class="button search__button">></button>
+        </form>
+      </section>
+      <section class="preloader disabled">
+        <i class="preloader__spiner"></i>
+        <p class="preloader__text">Достаем термометр, подождите...</p>        
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h3 class="footer__logo logo">dressme</h3>
+      <p class="footer__copyright">Andrew&nbsp;Bubnov&nbsp;&copy;&nbsp;2020</p>      
+    </footer>
+  </div>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
+
 </body>
 
 </html>

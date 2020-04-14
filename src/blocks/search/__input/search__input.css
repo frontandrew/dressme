@@ -1,0 +1,22 @@
+.search__input {
+    width: calc(100% - 64px);
+    
+    background-color: #fff;
+    font-size: 24px;
+
+    border: none;
+    outline: none;
+}
+
+/* @media screen and (max-width: 460px) {
+    .search__input {
+        position: relative;
+
+        height: 56px;
+        width: 100%;
+        border-radius: 34px;
+        background-color: #fff;
+
+        
+    }
+} */

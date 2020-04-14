@@ -1,0 +1,21 @@
+@import url(./__local/forecast__local.css);
+@import url(./__image/forecast__image.css);
+@import url(./__temperature/forecast__temperature.css);
+@import url(./__minmax/forecast__minmax.css);
+@import url(./__describe/forecast__describe.css);
+@import url(./__advice/forecast__advice.css);
+@import url(./__underlay/forecast__underlay.css);
+
+.forecast {
+    max-width: 1080px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 300px auto 250px;
+    grid-template-rows: 100px 300px auto 80px;
+
+    border-radius: 32px;
+    box-shadow: 0 0 10px 5px rgba(120, 120, 120, 0.13);
+
+    background: var(--bg-dark);
+}

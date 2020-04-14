@@ -1,0 +1,7 @@
+.forecast__underlay {
+    grid-column: 1/4;
+    grid-row: 1/4;
+
+    background-color: white;
+    border-radius: 30px;
+}
