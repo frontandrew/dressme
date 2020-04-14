@@ -1,0 +1,9 @@
+.button {
+    transition: all .4s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    /* box-shadow: 0px 4px rgb(120, 194, 255); */
+    opacity: .4;
+}

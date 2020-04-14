@@ -14,12 +14,4 @@
 
     border: 2px solid #000;
     border-radius: 100px;
-
-    transition: all .4s ease;
-}
-
-.header__button:hover {
-    cursor: pointer;
-    /* box-shadow: 0px 4px rgb(120, 194, 255); */
-    opacity: .4;
 }

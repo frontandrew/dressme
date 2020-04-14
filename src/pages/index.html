@@ -15,7 +15,7 @@
   <div class="page">
     <header class="header">
       <h1 class="header__logo logo">dressme</h1>
-      <button class="header__button button">Другой город</button>
+      <button class="header__button button">ВЫБРАТЬ ГОРОД</button>
     </header>
 
     <main class="content">
@@ -32,6 +32,16 @@
           <span class="forecast__advice  forecast__advice_text">не забудте головной убор и перчатки</span>
         </p>
         <div class="forecast__underlay"></div>
+      </section>
+      <section class="search disabled">
+        <form class="search__form" action="submit">
+          <input type="text" class="search__input" required="yes" minlength="2" placeholder="введите название города">
+          <button class="button search__button">></button>
+        </form>
+      </section>
+      <section class="preloader disabled">
+        <i class="preloader__spiner"></i>
+        <p class="preloader__text">Достаем термометр, подождите...</p>        
       </section>
     </main>
 

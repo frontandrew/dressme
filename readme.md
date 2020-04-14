@@ -28,8 +28,9 @@ Hi! And wellcome.
 
 <details>
     <summary>v0.0.2</summary>
-    <li>Base layout</li>
+    <li>Base layouts</li>
     <li>Added fonts</li>
+    <li>Added animated icons</li>
     <li>Update 'Fast start' in readme</li>
 </details>
 
