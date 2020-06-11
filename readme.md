@@ -6,7 +6,7 @@
 
 Hi! And wellcome. 
 
-'Dressme' is a test project to School of the Future CTO. This is a web app, that shows the weather forecast in the selected city and recommends suitable clothing.
+'Dressme' is a test project. This is a web app, that shows the weather forecast in the selected city and recommends suitable clothing.
 
 ### Use technology:
 
